@@ -2,9 +2,9 @@
 Class design and app structure to process files in directory
 
 
-Entry point is MainInventoryProcessor.java.
+## Entry point is MainInventoryProcessor.java.
 
-Database assumptions
+**Database assumptions**
 	
   -New table is created to map appropriate column from file to qty and productId. As we don't know which column refer to qty and which
 	  refer to productId it is better to save for each supplier which column is used for quantity and which column is used for productId.
